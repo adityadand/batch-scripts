@@ -2,7 +2,7 @@
 
 title GetInfo(); By Tanny!&cls&
 
-color 9 
+color a
 wmic baseboard list brief
 wmic cpu get name
 wmic MEMORYCHIP get BankLabel, DeviceLocator, Capacity, Speed
